@@ -1,0 +1,51 @@
+@import './fonts.css';
+
+body {
+  font-family: 'Wix Madefor Text', sans-serif;
+}
+
+:root {
+  --drawer-margin-top-distance: 4px;
+  --drawer-min-top-distance: 4px;
+  --tv-color-pane-background: transparent;
+  --tv-color-platform-background: #151719;
+
+  /* --tv-color-popup-element-background-active: theme('colors.blue-pressed'); */
+
+  /* --tv-color-toolbar-button-text: theme('colors.white-secondary'); */
+  --tv-button-size: 12px;
+}
+
+[class*='toolbar-'] {
+  [class*='separatorWrap'] {
+    display: none;
+  }
+
+  #header-toolbar-intervals {
+    [class*='value'] {
+      font-size: 12px;
+    }
+  }
+
+  #header-toolbar-chart-styles {
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  #header-toolbar-indicators {
+    .js-button-text {
+      font-size: var(--tv-button-size);
+    }
+
+    svg {
+      display: none;
+    }
+  }
+}
+
+[class*='drawer-'],
+[data-outside-boundary-for='indicators-dialog'] > div {
+  border-radius: 6px;
+}

@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Wix Madefor Text';
+  src: url('@/assets/fonts/WixMadeforText-VariableFont_wght.ttf');
+  font-display: swap;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Wix Madefor Text';
+  src: url('@/assets/fonts/WixMadeforText-VariableFont_wght.ttf');
+  font-display: swap;
+  font-weight: 600;
+}
